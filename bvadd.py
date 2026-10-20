@@ -155,5 +155,5 @@ test_all_comb(w=4,h=3,l=2)
 
 
 
-# TODO: eval framework, generalize ground truth to all rules
+# eval framework, generalize ground truth to all rules
 # incorrect, imprecise, and precise
