@@ -3,5 +3,23 @@
 version = 4
 
 [[package]]
+name = "baa"
+version = "0.19.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5bfd336df246850cbf45d23c607f75df3c893b446dee16c4ff7a1e3f26a233c6"
+dependencies = [
+ "paste",
+]
+
+[[package]]
+name = "paste"
+version = "1.0.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
+
+[[package]]
 name = "rust_impl"
 version = "0.1.0"
+dependencies = [
+ "baa",
+]
